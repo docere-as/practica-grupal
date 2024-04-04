@@ -90,7 +90,7 @@ siguientes formatos:
   formato PDF o PNG.
 
 - Decisiones de diseño. No hay formato concreto, pero se pueden
-  encontrar algunas ideas [https://adr.github.io/](aquí). Incluye:
+  encontrar algunas ideas [https://adr.github.io/](aquí). Incluir:
  
     - Decisiones relativas a la arquitectura y sus variantes.
 	
@@ -125,7 +125,7 @@ breve presentación del proyecto desarrollado.
   - El material audiovisual de apoyo a la presentación se debe incluir
     en este repositorio.
 	
-  - También se debe incluir en el proyecto las instrucciones
+  - También se debe incluir en el repositorio las instrucciones
     necesarias para replicar la demostración realizada durante la
     presentación.
 	
@@ -144,8 +144,7 @@ breve presentación del proyecto desarrollado.
         * Tácticas aplicadas para afrontar los requisitos no
           funcionales
           
-      - Aspecto relevantes de la implementación realizada:
-        concreto:
+      - Aspectos relevantes de la implementación realizada:
   
         * Estructura del proyecto en el repositorio
           
@@ -162,7 +161,7 @@ breve presentación del proyecto desarrollado.
 
 
 Al finalizar la exposición, habrá una ronda de preguntas por parte de
-los asistentes, profesorado y estudiantes.
+los asistentes: profesorado y estudiantes.
 
 
 # Guía para la evaluación
@@ -212,7 +211,7 @@ La evaluación de la práctica parte de los siguientes criterios:
       para el lenguaje de programación empleado.
 	  
 	- Se usan las librerías estándar, herramientas y abstracciones
-      habituales. Por ejemplo en _elixir_: _behaviours, _mix_,
+      habituales. Por ejemplo en _elixir_: _behaviours_, _mix_,
       _heartbeat_, ...
 	  
 	- No se detectan bugs ni problemas de rendimiento.
@@ -254,6 +253,7 @@ La evaluación de la práctica parte de los siguientes criterios:
           
 
 
-> [!CAUTION] Si se detecta una participación desigual en el desarrollo
+> [!CAUTION]
+> Si se detecta una participación desigual en el desarrollo
 > del proyecto, el profesorado puede optar por una evaluación
 > individual del trabajo.
