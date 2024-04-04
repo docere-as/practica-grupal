@@ -96,7 +96,7 @@ siguientes formatos:
 	
 	- Decisiones relativas a las tácticas.
 	
-	- Otras decisiones.
+	- Otros tipos de decisiones adoptadas a lo largo del proyecto.
 
 
 ### Instrucciones
