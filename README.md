@@ -29,6 +29,11 @@ aspectos:
 
 # Secciones a cubrir durante el desarrollo de la práctica
 
+## Nombre del equipo
+
+El nombre usado en moodle.
+
+
 ## Autores
 
   - Nombre, apellidos, login udc, login github
