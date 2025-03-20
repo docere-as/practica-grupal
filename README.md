@@ -8,11 +8,15 @@ La propuesta se debe realizar teniendo en cuenta los siguientes
 aspectos:
 
   - Debe incluir la descripción tanto de los requisitos funcionales,
-    como no funcionales.
+    como no funcionales. Ambos deben ser coherentes con la naturaleza
+    del sistema propuesto.
 
   - Debe ser validada por el profesor de la asignatura.
 
-  - La funcionalidad del sistema no es el objetivo de la práctica.
+  - La funcionalidad del sistema **no** es el objetivo de la práctica.
+
+  - El diseño de la arquitectura aplicando las tácticas necesarias
+    **sí** es el objetivo de la práctica.
 
   - El diseño de la aplicación debe seguir alguna de las
     arquitecturas estudiadas durante el cuatrimestre, una combinación
@@ -54,18 +58,17 @@ que contribuya a una mejor comprensión del mismo.
 - Documentar el código con _ExDoc_.
 
 - Documentar las normas para  el formato del código.
-  Recomendación: usar `mix format` y documentar la configuración del mismo.
+  Usar `mix format` y documentar la configuración del mismo.
 
 - Crear, y cumplir, una guía de estilo para el código.
-  Recomendación:
+  Por ejemplo:
   [https://github.com/christopheradams/elixir_style_guide](The Elixir
   Style Guide).
   
   
 ## Normas para el proyecto y el control de versiones
 
-- Estructura del proyecto.
-  Recomendación: basarse en la estructura creada por `mix new`.
+- Estructura del proyecto: estructura creada por `mix new`.
 
 - Formato y convenciones para la redacción de mensajes de
   commit. Ejemplo:
