@@ -1,8 +1,8 @@
 # Práctica grupal
 
-El desarrollo de esta práctica incluye la propuesta, diseño,
-implementación y presentación de un sistema propuesto por el grupo de
-trabajo.
+El desarrollo de esta práctica incluye la propuesta, diseño, documentación,
+implementación, testing y presentación de un sistema propuesto por el grupo
+de trabajo.
 
 La propuesta se debe realizar teniendo en cuenta los siguientes
 aspectos:
@@ -12,8 +12,9 @@ aspectos:
 
   - Debe ser validada por el profesor de la asignatura.
 
-  - La funcionalidad del sistema no es el objetivo de la práctica. Sin
-    embargo el diseño del mismo debe seguir alguna de las
+  - La funcionalidad del sistema no es el objetivo de la práctica.
+
+  - El diseño de la aplicación debe seguir alguna de las
     arquitecturas estudiadas durante el cuatrimestre, una combinación
     de las mismas, o alguna otra arquitectura propuesta por el
     grupo. Dicho diseño tiene que ser una solución efectiva para el
@@ -21,17 +22,17 @@ aspectos:
 	
   - Los requisitos no funcionales más habituales están relacionados
     con el rendimiento, disponibilidad y seguridad, aunque no son los
-    únicos. En cualquier caso, dichos requisitos deben dar lugar a la
-    aplicación de las tácticas estudiadas durante el cuatrimestre.
+    únicos. En cualquier caso, dichos requisitos deben materializarse
+    en la aplicación de las tácticas estudiadas durante el cuatrimestre.
 
 
 
 
-# Secciones a cubrir durante el desarrollo de la práctica
+# Datos a cubrir en este README
 
 ## Nombre del equipo
 
-El nombre usado en moodle.
+El nombre usado en moodle, si existe.
 
 
 ## Autores
@@ -46,21 +47,25 @@ funcionales y no funcionales del mismo, y cualquier otra información
 que contribuya a una mejor comprensión del mismo.
 
 
-## Normas para el código
+# Información a incluir en la documentación del proyecto
 
+## Normas para el código
 
 - Documentar el código con _ExDoc_.
 
-- Indicar el formato del código. Recomendado: `mix format`.
+- Documentar las normas para  el formato del código.
+  Recomendación: usar `mix format` y documentar la configuración del mismo.
 
-- Guía de estilo. Recomendado:
+- Crear, y cumplir, una guía de estilo para el código.
+  Recomendación:
   [https://github.com/christopheradams/elixir_style_guide](The Elixir
   Style Guide).
   
   
 ## Normas para el proyecto y el control de versiones
 
-- Estructura del proyecto. Recomendado: estructura creada por `mix new`.
+- Estructura del proyecto.
+  Recomendación: basarse en la estructura creada por `mix new`.
 
 - Formato y convenciones para la redacción de mensajes de
   commit. Ejemplo:
@@ -73,8 +78,7 @@ que contribuya a una mejor comprensión del mismo.
   the Best Git Branching Strategies)
 
 
-## Documentación
-
+## Documentación de la aplicación
 
 ### Aplicación
 
@@ -170,6 +174,10 @@ breve presentación del proyecto desarrollado.
           
       - Realización de una demostración de funcionamiento
 
+  - La presentación seguirá el guión que el equipo de desarrollo
+    considere oportuno. No es necesario seguir el orden establecido en
+    el punto anterior.
+
 
 Al finalizar la exposición, habrá una ronda de preguntas por parte de
 los asistentes: profesorado y estudiantes.
@@ -177,20 +185,20 @@ los asistentes: profesorado y estudiantes.
 
 # Guía para la evaluación
 
-La evaluación de la práctica parte de los siguientes criterios:
+La evaluación de la práctica se basa en los siguientes criterios:
 
 - Arquitectura distribuida. 1 punto.
 
 	Se considera si se ha desarrollado una arquitectura distribuida.
     Para considerar si la arquitectura es distribuida no se tienen en
-    cuenta los posibles clientes de la misma.
+    cuenta los posibles clientes de la aplicación.
   
   
 - Calidad del diseño. Hasta 3 puntos.
 
 	Algunos indicadores típicos son:
 	
-	- La arquitectura o combinación/adaptación de la/s arquitectura/s
+    - La arquitectura o combinación/adaptación de la/s arquitectura/s
       es adecuada para resolver el proyecto planteado.
    
     - El desarrollo de la arquitectura es correcto.
@@ -208,7 +216,7 @@ La evaluación de la práctica parte de los siguientes criterios:
 
 	Algunos indicadores típicos son:
 	
-	- Existe una planificación y asignación eficaz de tareas.
+    - Existe una planificación y asignación eficaz de tareas.
 	
     - El uso del control de versiones es coherente con las normas
       establecidas, y se corresponde con la asignación de tareas a los
@@ -218,30 +226,33 @@ La evaluación de la práctica parte de los siguientes criterios:
       integración, sistema, ... y cubren los aspectos claves de la
       aplicación.
 	  
-	- El estilo del código es homogéneo en todo el proyecto y adecuado
+    - El estilo del código es homogéneo en todo el proyecto y adecuado
       para el lenguaje de programación empleado.
 	  
-	- Se usan las librerías estándar, herramientas y abstracciones
-      habituales. Por ejemplo en _elixir_: _behaviours_, _mix_,
+    - Se usan las librerías estándar, herramientas y abstracciones
+      habituales. Por ejemplo, en _elixir_: _behaviours_, _mix_,
       _heartbeat_, ...
 	  
-	- No se detectan bugs ni problemas de rendimiento.
+    - No se detectan bugs ni problemas de rendimiento.
+
+    - El proyecto se ha implementado en su totalidad. No existen
+      partes de la aplicación diseñadas, pero no implementadas.
 
 	  
 - Calidad de la documentación. Hasta 1 punto.
 
-	Se tendrán en que:
+	Se tendrá en cuenta que:
 	
-	- Están documentados todos los aspectos recogidos en la sección de
+    - Están documentados todos los aspectos recogidos en la sección de
       documentación: requisitos funcionales y no funcionales, tácticas
       implementadas, decisiones de diseño, diagramas C4, etc.
 	  
-	- El código y las pruebas están documentados.
+    - El código y las pruebas están documentados.
 	
-	- Se han establecido las normas para la redacción de mensajes de
+    - Se han establecido las normas para la redacción de mensajes de
       commit, estilo de código, etc.
 	  
-    - El README contiene toda la información solicitada.
+    - Contiene toda la información solicitada en este README.
 	
 	
 - Calidad de la presentación. Hasta 1 punto.
@@ -251,9 +262,9 @@ La evaluación de la práctica parte de los siguientes criterios:
     - El cumplimiento de las instrucciones dadas para las
       presentaciones.
 	
-	- La claridad de la exposición.
+    - La claridad de la exposición.
 	
-	- La participación en el resto de presentaciones.
+    - La participación en el resto de presentaciones.
    
 
 - Calidad global del proyecto. Hasta 1 punto.
