@@ -94,8 +94,9 @@ siguientes formatos:
 - Documentación del diseño. Los cuatro niveles del C4. Ficheros en
   formato PDF o PNG.
 
-- Decisiones de diseño. No hay formato concreto, pero se pueden
-  encontrar algunas ideas [https://adr.github.io/](aquí). Incluir:
+- Decisiones para los cambios del diseño. No hay formato concreto.
+  Aquí se pueden encontrar algunas [https://adr.github.io/](ideas
+  para anotar las decisiones de diseño). Incluir:
  
     - Decisiones relativas a la arquitectura y sus variantes.
 	
@@ -103,10 +104,15 @@ siguientes formatos:
 	
 	- Otros tipos de decisiones adoptadas a lo largo del proyecto.
 
+Se desaconseja encarecidamente usar una metodología de desarrollo tipo
+_waterfall_. Por consiguiente, es importante documentar tanto los diseños
+intermedios como los cambios entre ellos.
 
 ### Instrucciones
 
 Instrucciones para compilar, desplegar, utilizar, ejecutar los tests, ...
+
+Instrucciones para que los revisores realicen [https://en.wikipedia.org/wiki/Exploratory_testing](tests exploratorios).
 
 
 ### Tests
